@@ -1,0 +1,23 @@
+main {
+  display: flex;
+  height: 100%;
+  place-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+form {
+  display: flex;
+  gap: 1rem;
+}
+
+.todo-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.todo-list h4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
